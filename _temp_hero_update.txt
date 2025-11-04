@@ -1,0 +1,11 @@
+Find line 100:
+<p class="hero-description mb-4">We believe in making your dreams and goals a reality. From impartial advice to hands-on assistance, we help you make the most of every opportunity—whether you're just starting out or looking to restructure.</p>
+
+Replace with:
+<p class="hero-description mb-4">We're a modern IT startup turning ambitious visions into reality. From cutting-edge web platforms to intelligent mobile apps—we build what others dream of. Fast execution, innovative tech, and a team that's obsessed with your success.</p>
+
+Find line 103:
+<a href="#contact" class="btn btn-primary">Get in Touch</a>
+
+Replace with:
+<a href="#contact" class="btn btn-primary">Start Your Journey</a>
