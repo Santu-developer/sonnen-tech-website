@@ -1,0 +1,7 @@
+# Netlify Redirects
+# All routes should go to index.html for single-page application
+
+/*    /index.html   200
+
+# Form submissions (handled by Netlify)
+/thank-you.html   /thank-you.html   200
