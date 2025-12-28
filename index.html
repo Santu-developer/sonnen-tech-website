@@ -1305,14 +1305,20 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="form-wrapper" data-aos="fade-up" data-aos-delay="400">
-              <form name="contact" method="POST" netlify netlify-honeypot="bot-field" class="php-email-form">
-                <!-- Hidden field for Netlify form name -->
-                <input type="hidden" name="form-name" value="contact">
-                
-                <!-- Anti-spam honeypot field (hidden from users) -->
-                <p class="d-none">
-                  <label>Don't fill this out if you're human: <input name="bot-field"></label>
-                </p>
+              <form
+                method="POST"
+                action="https://formsubmit.co/santoshpatidar.dev@gmail.com"
+                class="php-email-form"
+              >
+                <!-- FormSubmit options -->
+                <input type="hidden" name="_subject" value="Sonnen Tech Website Inquiry" />
+                <input
+                  type="hidden"
+                  name="_autoresponse"
+                  value="Thanks for reaching out! Your message has been received successfully. We’ll get back to you soon."
+                />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_next" value="https://santu-developer.github.io/sonnen-tech-website/thank-you.html" />
                 
                 <div class="row">
                   <div class="col-md-6 form-group">
@@ -1710,7 +1716,7 @@
       <div class="credits">
         Designed by <a href="https://santu-developer.github.io/my-webfolio/" target="_blank">Santosh Patidar</a>
       </div>
-    </div>cd..
+    </div>
 
   </footer>
 
